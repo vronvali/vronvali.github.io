@@ -1,0 +1,20 @@
+{
+  "name": "rock_paper_scissors",
+  "main": "rock_paper_scissors.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/vronvali/vronvali.github.io",
+  "authors": [
+    "vronvali <vronvali@cesine.ca>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jasmine": "~2.3.4"
+  }
+}
