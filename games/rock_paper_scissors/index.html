@@ -1,39 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <!--<link rel="shortcut icon" type="image/png" href="bower_components/jasmine/images/jasmine_favicon.png"> 
   <link rel="stylesheet" type="text/css" href="bower_components/jasmine/lib/jasmine-core/jasmine.css"> -->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
 </head>
 <body>
 
 	<div class="jumbotron">
-        <h1>Rock Paper Scissors</h1>
-        <p class="lead">This is the first game I built during my iternship.</p>
-        Choose your weapon:
-        <select class="btn btn-warning">
-        	<option>Rock</option>
-        	<option>Paper</option>
-        	<option>Scissors</option>
-        </select>
+		<h1>Rock Paper Scissors</h1>
+		<p class="lead">This is the first game I built during my iternship.</p>
+		Choose your weapon:
+		<select class="btn btn-warning">
+			<option>Rock</option>
+			<option>Paper</option>
+			<option>Scissors</option>
+		</select>
 		<button type="button" class="btn btn-info  btn-lg btn-block" onclick="new RockPaperScissorsGame($(this).parent()).run()">Run</button>
-        Computer: <span class="computers-choice"></span>
+		Computer: <span class="computers-choice"></span>
 		Result: <span class="result lead btn btn-success  btn-lg btn-block"></span>
-      </div>
+	</div>
 
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.js"></script>
 
 	<!-- using jasmine for tests
 
 	<script type="text/javascript" src="bower_components/jasmine/lib/jasmine-core/jasmine.js"></script>
 	<script type="text/javascript" src="bower_components/jasmine/lib/jasmine-core/jasmine-html.js"></script>
 	<script type="text/javascript" src="bower_components/jasmine/lib/jasmine-core/boot.js"></script>
- 	-->
+-->
 
-    <script src="rock_paper_scissors.js"></script>
-    <!--<script src="rock_paper_scissors-spec.js"></script> -->
+<script src="rock_paper_scissors.js"></script>
+<!--<script src="rock_paper_scissors-spec.js"></script> -->
+
+
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+	try {
+		var pageTracker = _gat._getTracker("UA-63797416-1");
+		pageTracker._trackPageview();
+	} catch(err) {}
+</script>
+
 </body>
 </html>
